@@ -50,13 +50,13 @@ const Accordian = () => {
               <AccordionSummary onClick={() => HandleClick(item.id)} expandIcon={<ArrowDropDownIcon/>}>
                 <Typography variant="h5">{item.name}</Typography>
               </AccordionSummary>
-              <AccordionDetails ><Typography variant="h6">{item.Age}</Typography></AccordionDetails>
+              <AccordionDetails ><Typography variant="h6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</Typography></AccordionDetails>
             </Accordion>
            : <Accordion expanded={value[i]}  variant="outlined">
               <AccordionSummary onClick={() =>set(i)} expandIcon={<ArrowDropDownIcon/>}>
               <Typography variant="h5">{item.name}</Typography>
               </AccordionSummary>
-              <AccordionDetails><Typography variant="h6">{item.Age}</Typography></AccordionDetails>
+              <AccordionDetails><Typography variant="h6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</Typography></AccordionDetails>
             </Accordion>
              } </div>
         ))
